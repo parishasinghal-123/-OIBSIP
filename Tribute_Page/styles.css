@@ -1,21 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     background-color:bisque;
-    border: 10px solid #624a2e;
-     width:40cm;
-     margin-left: 30cqmax; 
-     display: flex;
+    border: 20px solid #624a2e;
+    width: 40cm;
+    margin-left: 30cqmax;  
+    margin-top: 200px;
 }
 .content{
     max-width: 900px;
-    margin: 300px;
-}
+    margin: 200px ;
+ } 
 .top_section{
-    margin-top: 100x;
-    display:contents;
+    margin-top: 100px;
+    display:flex;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -53,12 +54,13 @@ img{
 .about_section p{
     font-size: 20px;
     line-height: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     text-align: justify;
 }
 .literary_works_section{
     margin-top: 50px;
     margin-bottom: 100px;
+    /* margin-bottom: 50px 0; */
 }
 .literary_works_section h3{
     font-size: 25px;
@@ -75,4 +77,4 @@ footer{
 footer p{
     font-size: 20px;
     text-align: end;
-}
+} 
